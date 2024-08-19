@@ -10,9 +10,17 @@ const Navbar = () => {
           <img src={logo} alt="logo" className="w-32 mx-2" />
         </div>
         <div className="m-8 flex items-center gap-4 justify-center text-2xl">
-          <FaLinkedin />
-          <FaGithub />
-          <FaInstagram />
+          <a href="https://www.linkedin.com/in/vishwas-sankpal-8542a121b/">
+            <FaLinkedin />
+          </a>
+          <a href="https://github.com/Vishwas0101">
+            {" "}
+            <FaGithub />
+          </a>
+          <a href="#">
+            {" "}
+            <FaInstagram />
+          </a>
         </div>
       </nav>
     </>

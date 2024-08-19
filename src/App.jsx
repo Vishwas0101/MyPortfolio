@@ -5,6 +5,7 @@ import About from "./components/About";
 import Technologies from "./components/Technologies";
 import Experience from "./components/Experience";
 import Project from "./components/Project";
+import Contact from "./components/Contact";
 
 export default function App() {
   return (
@@ -19,6 +20,7 @@ export default function App() {
         <Technologies />
         <Experience />
         <Project />
+        <Contact />
       </div>
     </div>
   );
