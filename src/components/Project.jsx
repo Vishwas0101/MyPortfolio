@@ -24,8 +24,8 @@ export default function Project() {
               <img
                 src={project.image}
                 alt={project.title}
-                width={150}
-                height={150}
+                width={300}
+                height={300}
                 className="mb-6 rounded"
               />
             </motion.div>

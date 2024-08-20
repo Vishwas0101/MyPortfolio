@@ -1,5 +1,8 @@
 import { HERO_CONTENT } from "../constants/index";
 import profilepic from "../assets/profilepic.png";
+import profilepict from "../assets/profilepict.png";
+
+
 import { motion } from "framer-motion";
 
 const container = (delay) => ({
@@ -48,7 +51,7 @@ export default function Hero() {
               initial={{ x: 100, opacity: 0 }}
               animate={{ x: 0, opacity: 1 }}
               transition={{ duration: 1, delay: 1.2 }}
-              src={profilepic}
+              src={profilepict}
               alt="profilepic"
             />
           </div>
